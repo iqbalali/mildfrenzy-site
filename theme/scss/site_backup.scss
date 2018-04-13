@@ -1,0 +1,315 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:600,400");
+
+//VARIABLES..
+@import "_variables";
+$checkbox-radius:0px;
+$checkbox-select-color: #333;
+$margin-base-main-vertical: 10px;
+
+
+//MIXINS..
+@import "../lib/bootstrap-sass/scss/_mixins";
+//@import "_icomoon";//Fonts
+@import "_mixins";
+
+
+//COMPONENTS..
+//@import "../lib/bootstrap-sass/scss/_scaffolding";
+//@import "../lib/bootstrap-sass/scss/_type";
+//@import "../lib/bootstrap-sass/scss/_code";
+@import "../lib/bootstrap-sass/scss/_grid";
+//@import "../lib/bootstrap-sass/scss/_tables";
+//@import "../lib/bootstrap-sass/scss/_forms";
+@import "../lib/bootstrap-sass/scss/_buttons";
+//@import "../lib/bootstrap-sass/scss/_component-animations";
+//@import "../lib/bootstrap-sass/scss/_glyphicons";
+//@import "../lib/bootstrap-sass/scss/_dropdowns";
+//@import "../lib/bootstrap-sass/scss/_button-groups";
+//@import "../lib/bootstrap-sass/scss/_input-groups";
+//@import "../lib/bootstrap-sass/scss/_navs";
+//@import "../lib/bootstrap-sass/scss/_navbar";
+//@import "../lib/bootstrap-sass/scss/_breadcrumbs";
+//@import "../lib/bootstrap-sass/scss/_pagination";
+//@import "../lib/bootstrap-sass/scss/_pager";
+//@import "../lib/bootstrap-sass/scss/_labels";
+//@import "../lib/bootstrap-sass/scss/_badges";
+//@import "../lib/bootstrap-sass/scss/_jumbotron";
+//@import "../lib/bootstrap-sass/scss/_thumbnails";
+//@import "../lib/bootstrap-sass/scss/_alerts";
+//@import "../lib/bootstrap-sass/scss/_progress-bars";
+//@import "../lib/bootstrap-sass/scss/_media";
+//@import "../lib/bootstrap-sass/scss/_list-group";
+//@import "../lib/bootstrap-sass/scss/_panels";
+//@import "../lib/bootstrap-sass/scss/_wells";
+//@import "../lib/bootstrap-sass/scss/_close";
+// Components w/ JavaScript
+@import "../lib/bootstrap-sass/scss/_modals";
+//@import "../lib/bootstrap-sass/scss/_tooltip";
+//@import "../lib/bootstrap-sass/scss/_popovers";
+//@import "../lib/bootstrap-sass/scss/_carousel";
+//@import "components/_box";
+//@import "components/_profile-img";
+
+
+/*
+@import "components/_buttons";
+@import "components/_box";
+@import "components/_profile-img";
+@import "components/_forms";
+@import "components/_modal";
+*/
+
+//MODULES
+/*
+Make sure moduels are encapsulated. Do this by nesting all styles within
+a module within a class name. This would mean the contents of that module
+won't inetefer with anything else.
+
+Example:
+_my-module-name.scss
+.my-module-name{
+  .some-class{}
+  .some-other-class{}
+  etc.
+}
+*/
+
+
+
+//SCAFFOLDING
+@import "../lib/bootstrap-sass/scss/_normalize";
+//@import "../lib/bootstrap-sass/scss/_print";
+@import "../lib/bootstrap-sass/scss/_utilities";
+@import "../lib/bootstrap-sass/scss/_responsive-utilities";
+//@import "../lib/style-library/scss/_scaffolding";
+
+//MODULES
+@import "_introduction";
+@import "_stickyPanel.scss";
+@import "_books";
+@import "_sign-up";
+
+
+//PAGES
+//@import "pages/_get-free-comic";
+
+//COMMON/GLOBAL AREA
+//Put stuff here that are global styles to affect whole site
+h2{
+    text-align:center;
+    font-weight:normal;
+    font-size: $font-size-h3;
+    margin-top: 0;
+    line-height:1em;
+}
+h3{
+  font-size: $font-size-base;
+  font-weight: normal;
+  line-height: 2.5rem;
+}
+p{
+  margin: $padding-base-vertical 0 $padding-base-vertical*2 0;
+}
+
+a{
+  //color: #000;
+  color: $blue;
+  &.active{
+    color: $blue;
+  }
+  //text-decoration: none;
+  &:visited{
+    
+  }
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+body{
+  font-family: 'Open Sans',sans-serif;
+}
+
+.clear{
+  clear:both;
+}
+
+.center-container{
+    text-align: center;
+}
+
+#pagefooter{
+  background: #000;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  a{
+    color: #fff;
+    text-decoration: underline;
+    &:visited, &:hover{
+      color: #fff;
+    }
+  }
+}
+
+.container{
+    // width:100%;
+    position: relative;
+    padding: 0px 15px;
+}
+
+.content-main{
+  @include make-md-column(8);
+  @include make-md-column-offset(2);
+}
+.constrained{
+  @include clearfix;
+  margin:0 auto;
+  max-width:$container-md;
+}
+.col{
+  @include make-sm-column(6);
+  h2{
+  font-size:2.2rem;
+  }
+  ul{
+  @include list-no-style;
+  
+  }
+}
+.small{
+  font-size: $font-size-small;
+}
+.list-inline{
+  @include list-inline;
+}
+.strong{
+  font-weight: 600;
+}
+.small{
+  font-size: $font-size-small;
+}
+.italic{
+  font-style:italic;
+}
+.list-inline{
+  @include list-inline;
+}
+.strong{
+  font-weight: 600;
+}
+
+//Buttons nextt o form fields
+.button{
+  background: #3e6fb5;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  @include transition(.9s all ease);
+ 
+  &:hover{
+    background: darken($blue,10%);
+  }
+  &.icon-button{
+    padding-left: 60px;
+  }
+  span.icon{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    svg{
+      fill: #fff;
+      width: 30px;
+    }
+  }
+}
+
+// Speech button
+.arrow-div {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid $blue;
+  @include transition(.9s all ease);
+  &:after, &:before{
+    bottom: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    @include transition(.9s all ease);
+  }
+  &:after{
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 7px;
+    margin-left: -7px;
+  }
+  &:before{
+    border-color: rgba(18, 42, 255, 0);
+    border-bottom-color: $blue;
+    border-width: 8px;
+    margin-left: -8px;
+  }
+  &:hover{
+    background: $blue;
+    &:after{
+      border-bottom-color: $blue;
+    }
+  }
+}
+
+.button-container-center{
+  margin-top:$padding-section-vertical;
+  text-align:center;
+}
+.account-profile-extras{
+  @include make-md-column(5);
+  padding:0 $padding-base-horizontal $padding-base-vertical $padding-base-horizontal;
+}
+.speech-bubble-left{
+  @include triangle-border-left($borderColor:$gray-dark, $bgColor:$gray-dark, $pos:10px, $border:1px, $size:15px );
+  background: $gray-dark;
+  width: 14rem;
+  padding: 5px;
+  color: white;
+}
+
+.speech-bubble-top{
+  @include triangle-border-top($borderColor:$gray-dark, $bgColor:$gray-dark, $pos:29px, $border:1px, $size:15px );
+  background: $gray-dark;
+  width: 14rem;
+  padding: 5px;
+  color: white;
+}
+.get-free-comic{
+  .book-section .list-book-container .book-item{
+      .book-title{
+        .page-number{
+          color: #680101;
+          text-transform: uppercase;
+        }
+      }
+  }
+}
+.modal{
+  button.close{
+    position:absolute;
+    right:10px;
+    top:10px;
+  }
+}
+

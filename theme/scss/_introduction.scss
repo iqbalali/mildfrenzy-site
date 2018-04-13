@@ -1,0 +1,92 @@
+.introduction{
+  background: rgb(230, 79, 82);
+  padding-top: 70px;
+  padding-bottom: 40px;
+  .social-block{
+    @include border-radius(0,0,5px,5px);
+    position: absolute;
+    background: #000;
+    right: 0;
+    padding: 10px;
+    .icon{
+      height: 40px;
+      fill: #fff;
+      margin-right: 10px;
+      @include transition(.9s all ease);
+      &:hover{
+        fill: $blue;
+      }
+    }
+  }
+  .logo-block{
+    padding-top: 120px;
+    svg{
+      display: block;
+    }
+    .logo-image{
+      @include make-md-column(5,0);
+      @include make-sm-column(5,0);
+      @include border-box;
+      float:none;
+      margin: 0 auto;
+      padding: 5px !important;
+      border: 1px solid #000;
+
+      @include respond-to-lower-than(screen-sm) {
+        width: 60%;
+      }
+
+      h1{
+        margin: 0;
+      }
+    }
+    .mildfrenzy-logo-text{
+      @include make-md-column(7,0);
+      @include make-sm-column(7,0);
+      @include border-box;
+      padding-top: 110px;
+    
+      @include respond-to-lower-than(screen-sm) {
+        padding-top: 30px;
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .introduction-text{
+    margin-top: 35px;
+    font-size: 2.9rem;
+    margin-bottom:0;
+  }
+  p{
+    margin-bottom: 20px;
+  }
+  .btn-primary{
+    font-size:1.3em;
+    text-transform:uppercase;
+    padding: 15px;
+    border-radius: 6px;
+  }
+}
+
+.get-free-comic{
+  .introduction{
+    background: #fff;
+    padding-bottom: 60px;
+    .logo-image{
+      float:none;
+    }
+    .mildfrenzy-logo-text{
+      float:none;
+      padding:15px 0 0 0;
+      margin:0 auto;
+    }
+    @include respond-to-lower-than(screen-sm) {
+      padding-bottom: 40px;
+    }
+    .logo-block{
+      padding-top: 45px;
+
+      }
+    }
+  }
