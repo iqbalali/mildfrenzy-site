@@ -1434,6 +1434,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"Aya Begum - Book 1",
             "pages":57,
             "publish_freq":4,
@@ -1729,6 +1730,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"Aya Begum - Book 2",
             "pages":57,
             "publish_freq":4,
@@ -2024,6 +2026,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"Nightingale Protocol",
             "pages":57,
             "publish_freq":7,
@@ -2319,6 +2322,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"Mild Frenzy - Volume 1",
             "pages":113,
             "publish_freq":4,
@@ -2894,6 +2898,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"Plantlife",
             "pages":101,
             "publish_freq":7,
@@ -3409,6 +3414,7 @@
         },
         {
             "final_message":"",
+            "messages":[],
             "name":"The Other Side",
             "pages":49,
             "publish_freq":1,
