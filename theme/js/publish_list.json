@@ -2,6 +2,18 @@
     "projects":[
         {
             "final_message":"",
+            "messages":[
+                "Not everything is as it seems. The latest page for Attack of the Marauders. More at",
+                "A son's mission to discover why his father turned into a monster. The latest page for Attack of the Marauders. More at",
+                "Who are the marauders? The latest page for Attack of the Marauders. More at",
+                "Here's the latest page of sci-fi webcomic: Attack of the Marauders. More at",
+                "That time of the week again. Here's the latest page of Attack of the Marauders. More at",
+                "It's Attack of the Marauders! Read the webcomic at",
+                "A new page every 4 days. Here's the latest of Attack of the Marauders. More at",
+                "What do the marauders want? The latest page for Attack of the Marauders. More at",
+                "Attack of the Marauders is a serialised webcomic. Here's the latest page. More at",
+                "Attack of the Marauders new page. Check out the story far at"
+            ],
             "name":"Attack of the Marauders",
             "pages":111,
             "publish_freq":4,
@@ -567,6 +579,26 @@
         },
         {
             "final_message":"",
+            "messages":[
+                "The story of a plane lost through a wormhole. Here's latest page of Strange Skies. More at",
+                "Lost in strange skies. The latest page of Strange Skies webcomic is now available at",
+                "'Strange Skies Paints a Raw Picture of Humanity'- Review from A Place to Hang Your Cape. The latest page of Strange Skies available now",
+                "Get yourself hooked into this webcomic! The latest page of Strange Skies available now",
+                "Things are gonna get weird as passengers are lost is strange skies. The latest page of Strange Skies available now",
+                "Now boarding: a flight through a wormhole. The latest page of Strange Skies available now",
+                "Have you been following the story of a doomed flight through a wormhole? The latest page of Strange Skies available now",
+                "Did I mention that Strange Skies is now a free web comic? Cos the latest page is available now",
+                "Things sure look bad for this flight. The latest page of Strange Skies is available now at",
+                "Strange Skies. The latest page of the webcomic is now available at",
+                "It's about the journey. A journey into strange skies, that is. Read the latest page of Strange Skies",
+                "You could cut the tension with a knife. Read the latest page of Strange Skies",
+                "A new page of Strange Skies every 4 days! Here's the latest one",
+                "This journey is seriously messed up! Here's the latest page of Strange Skies. More at",
+                "Beyond the confines of this cabin, is...something. Read the latest page of Strange Skies. More at",
+                "Here's the latest page of thriller webcomic: Strange Skies. More at",
+                "That time of the week again. Here's the latest page of Strange Skies. More at",
+                "Strange Skies new page. Check out the story far at"
+            ],
             "name":"Strange Skies",
             "pages":165,
             "publish_freq":4,
