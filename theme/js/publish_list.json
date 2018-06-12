@@ -1434,295 +1434,314 @@
         },
         {
             "final_message":"",
-            "messages":[],
+            "messages":[
+                "An all-ages supernatural mystery set it rural Bangladesh. Here's the latest page of Aya Begum. More at",
+                "A twelve-year old paranormal investigator in rural Bangladesh. New page every week. More at",
+                "Aya Begum is now a webcomic! Read the all-ages supernatural mystery at",
+                "Here's the latest page of Aya Begum. The paranormal mystery set in Bangladesh. Read more at",
+                "A new page of Aya Begum every week! Here's the latest page. More at: ",
+                "Thought you might like to know that a new page of the webcomic Aya Begum is up. See more at",
+                "Have you been following Aya Begum? Because here is the latest page. More at",
+                "Aya Begum is a twelve year old paranormal investigator, living in rural Bangladesh. View more pages at",
+                "Here's the latest page of Aya Begum. You can read the story so far here",
+                "Aya Begum - Book 1. The latest page of the webcomic is now available at",
+                "Thought you might like to know that the latest page of Aya is available online at",
+                "Something is haunting a forest in a Bangladeshi village. Read more at",
+                "It's that time again. Here's the latest page of Aya. More at",
+                "Aya's adventure is just beginning. Read more at",
+                "Aya is an all-ages comic and I'm releasing the whole book, page by page. Here's the latest. More at",
+                "Here's the latest page of the all-ages webcomic: Aya Begum. More at",
+                "And here's another page of Aya, the all ages comic set in Bangladesh. Read more at",
+                "Aya Begum - Paranormal Investigator. Here's the latest page. Check out the story far at"
+            ],
             "name":"Aya Begum - Book 1",
             "pages":57,
-            "publish_freq":4,
+            "publish_freq":7,
             "publish_info":[
                 {
-                    "date":"2018-06-05 00:00:00",
+                    "date":"2018-06-08 00:00:00",
                     "page":"001",
-                    "url":"/aya-book-1?page=2018-06-05-001"
+                    "url":"/aya-book-1?page=2018-06-08-001"
                 },
                 {
-                    "date":"2018-06-09 00:00:00",
+                    "date":"2018-06-15 00:00:00",
                     "page":"002",
-                    "url":"/aya-book-1?page=2018-06-09-002"
+                    "url":"/aya-book-1?page=2018-06-15-002"
                 },
                 {
-                    "date":"2018-06-13 00:00:00",
+                    "date":"2018-06-22 00:00:00",
                     "page":"003",
-                    "url":"/aya-book-1?page=2018-06-13-003"
-                },
-                {
-                    "date":"2018-06-17 00:00:00",
-                    "page":"004",
-                    "url":"/aya-book-1?page=2018-06-17-004"
-                },
-                {
-                    "date":"2018-06-21 00:00:00",
-                    "page":"005",
-                    "url":"/aya-book-1?page=2018-06-21-005"
-                },
-                {
-                    "date":"2018-06-25 00:00:00",
-                    "page":"006",
-                    "url":"/aya-book-1?page=2018-06-25-006"
+                    "url":"/aya-book-1?page=2018-06-22-003"
                 },
                 {
                     "date":"2018-06-29 00:00:00",
+                    "page":"004",
+                    "url":"/aya-book-1?page=2018-06-29-004"
+                },
+                {
+                    "date":"2018-07-06 00:00:00",
+                    "page":"005",
+                    "url":"/aya-book-1?page=2018-07-06-005"
+                },
+                {
+                    "date":"2018-07-13 00:00:00",
+                    "page":"006",
+                    "url":"/aya-book-1?page=2018-07-13-006"
+                },
+                {
+                    "date":"2018-07-20 00:00:00",
                     "page":"007",
-                    "url":"/aya-book-1?page=2018-06-29-007"
-                },
-                {
-                    "date":"2018-07-03 00:00:00",
-                    "page":"008",
-                    "url":"/aya-book-1?page=2018-07-03-008"
-                },
-                {
-                    "date":"2018-07-07 00:00:00",
-                    "page":"009",
-                    "url":"/aya-book-1?page=2018-07-07-009"
-                },
-                {
-                    "date":"2018-07-11 00:00:00",
-                    "page":"010",
-                    "url":"/aya-book-1?page=2018-07-11-010"
-                },
-                {
-                    "date":"2018-07-15 00:00:00",
-                    "page":"011",
-                    "url":"/aya-book-1?page=2018-07-15-011"
-                },
-                {
-                    "date":"2018-07-19 00:00:00",
-                    "page":"012",
-                    "url":"/aya-book-1?page=2018-07-19-012"
-                },
-                {
-                    "date":"2018-07-23 00:00:00",
-                    "page":"013",
-                    "url":"/aya-book-1?page=2018-07-23-013"
+                    "url":"/aya-book-1?page=2018-07-20-007"
                 },
                 {
                     "date":"2018-07-27 00:00:00",
-                    "page":"014",
-                    "url":"/aya-book-1?page=2018-07-27-014"
+                    "page":"008",
+                    "url":"/aya-book-1?page=2018-07-27-008"
                 },
                 {
-                    "date":"2018-07-31 00:00:00",
-                    "page":"015",
-                    "url":"/aya-book-1?page=2018-07-31-015"
+                    "date":"2018-08-03 00:00:00",
+                    "page":"009",
+                    "url":"/aya-book-1?page=2018-08-03-009"
                 },
                 {
-                    "date":"2018-08-04 00:00:00",
-                    "page":"016",
-                    "url":"/aya-book-1?page=2018-08-04-016"
+                    "date":"2018-08-10 00:00:00",
+                    "page":"010",
+                    "url":"/aya-book-1?page=2018-08-10-010"
                 },
                 {
-                    "date":"2018-08-08 00:00:00",
-                    "page":"017",
-                    "url":"/aya-book-1?page=2018-08-08-017"
-                },
-                {
-                    "date":"2018-08-12 00:00:00",
-                    "page":"018",
-                    "url":"/aya-book-1?page=2018-08-12-018"
-                },
-                {
-                    "date":"2018-08-16 00:00:00",
-                    "page":"019",
-                    "url":"/aya-book-1?page=2018-08-16-019"
-                },
-                {
-                    "date":"2018-08-20 00:00:00",
-                    "page":"020",
-                    "url":"/aya-book-1?page=2018-08-20-020"
+                    "date":"2018-08-17 00:00:00",
+                    "page":"011",
+                    "url":"/aya-book-1?page=2018-08-17-011"
                 },
                 {
                     "date":"2018-08-24 00:00:00",
-                    "page":"021",
-                    "url":"/aya-book-1?page=2018-08-24-021"
+                    "page":"012",
+                    "url":"/aya-book-1?page=2018-08-24-012"
                 },
                 {
-                    "date":"2018-08-28 00:00:00",
-                    "page":"022",
-                    "url":"/aya-book-1?page=2018-08-28-022"
+                    "date":"2018-08-31 00:00:00",
+                    "page":"013",
+                    "url":"/aya-book-1?page=2018-08-31-013"
                 },
                 {
-                    "date":"2018-09-01 00:00:00",
-                    "page":"023",
-                    "url":"/aya-book-1?page=2018-09-01-023"
+                    "date":"2018-09-07 00:00:00",
+                    "page":"014",
+                    "url":"/aya-book-1?page=2018-09-07-014"
                 },
                 {
-                    "date":"2018-09-05 00:00:00",
-                    "page":"024",
-                    "url":"/aya-book-1?page=2018-09-05-024"
-                },
-                {
-                    "date":"2018-09-09 00:00:00",
-                    "page":"025",
-                    "url":"/aya-book-1?page=2018-09-09-025"
-                },
-                {
-                    "date":"2018-09-13 00:00:00",
-                    "page":"026",
-                    "url":"/aya-book-1?page=2018-09-13-026"
-                },
-                {
-                    "date":"2018-09-17 00:00:00",
-                    "page":"027",
-                    "url":"/aya-book-1?page=2018-09-17-027"
+                    "date":"2018-09-14 00:00:00",
+                    "page":"015",
+                    "url":"/aya-book-1?page=2018-09-14-015"
                 },
                 {
                     "date":"2018-09-21 00:00:00",
-                    "page":"028",
-                    "url":"/aya-book-1?page=2018-09-21-028"
+                    "page":"016",
+                    "url":"/aya-book-1?page=2018-09-21-016"
                 },
                 {
-                    "date":"2018-09-25 00:00:00",
-                    "page":"029",
-                    "url":"/aya-book-1?page=2018-09-25-029"
+                    "date":"2018-09-28 00:00:00",
+                    "page":"017",
+                    "url":"/aya-book-1?page=2018-09-28-017"
                 },
                 {
-                    "date":"2018-09-29 00:00:00",
-                    "page":"030",
-                    "url":"/aya-book-1?page=2018-09-29-030"
+                    "date":"2018-10-05 00:00:00",
+                    "page":"018",
+                    "url":"/aya-book-1?page=2018-10-05-018"
                 },
                 {
-                    "date":"2018-10-03 00:00:00",
-                    "page":"031",
-                    "url":"/aya-book-1?page=2018-10-03-031"
-                },
-                {
-                    "date":"2018-10-07 00:00:00",
-                    "page":"032",
-                    "url":"/aya-book-1?page=2018-10-07-032"
-                },
-                {
-                    "date":"2018-10-11 00:00:00",
-                    "page":"033",
-                    "url":"/aya-book-1?page=2018-10-11-033"
-                },
-                {
-                    "date":"2018-10-15 00:00:00",
-                    "page":"034",
-                    "url":"/aya-book-1?page=2018-10-15-034"
+                    "date":"2018-10-12 00:00:00",
+                    "page":"019",
+                    "url":"/aya-book-1?page=2018-10-12-019"
                 },
                 {
                     "date":"2018-10-19 00:00:00",
-                    "page":"035",
-                    "url":"/aya-book-1?page=2018-10-19-035"
+                    "page":"020",
+                    "url":"/aya-book-1?page=2018-10-19-020"
                 },
                 {
-                    "date":"2018-10-23 00:00:00",
-                    "page":"036",
-                    "url":"/aya-book-1?page=2018-10-23-036"
+                    "date":"2018-10-26 00:00:00",
+                    "page":"021",
+                    "url":"/aya-book-1?page=2018-10-26-021"
                 },
                 {
-                    "date":"2018-10-27 00:00:00",
-                    "page":"037",
-                    "url":"/aya-book-1?page=2018-10-27-037"
+                    "date":"2018-11-02 00:00:00",
+                    "page":"022",
+                    "url":"/aya-book-1?page=2018-11-02-022"
                 },
                 {
-                    "date":"2018-10-31 00:00:00",
-                    "page":"038",
-                    "url":"/aya-book-1?page=2018-10-31-038"
-                },
-                {
-                    "date":"2018-11-04 00:00:00",
-                    "page":"039",
-                    "url":"/aya-book-1?page=2018-11-04-039"
-                },
-                {
-                    "date":"2018-11-08 00:00:00",
-                    "page":"040",
-                    "url":"/aya-book-1?page=2018-11-08-040"
-                },
-                {
-                    "date":"2018-11-12 00:00:00",
-                    "page":"041",
-                    "url":"/aya-book-1?page=2018-11-12-041"
+                    "date":"2018-11-09 00:00:00",
+                    "page":"023",
+                    "url":"/aya-book-1?page=2018-11-09-023"
                 },
                 {
                     "date":"2018-11-16 00:00:00",
-                    "page":"042",
-                    "url":"/aya-book-1?page=2018-11-16-042"
+                    "page":"024",
+                    "url":"/aya-book-1?page=2018-11-16-024"
                 },
                 {
-                    "date":"2018-11-20 00:00:00",
-                    "page":"043",
-                    "url":"/aya-book-1?page=2018-11-20-043"
+                    "date":"2018-11-23 00:00:00",
+                    "page":"025",
+                    "url":"/aya-book-1?page=2018-11-23-025"
                 },
                 {
-                    "date":"2018-11-24 00:00:00",
-                    "page":"044",
-                    "url":"/aya-book-1?page=2018-11-24-044"
+                    "date":"2018-11-30 00:00:00",
+                    "page":"026",
+                    "url":"/aya-book-1?page=2018-11-30-026"
                 },
                 {
-                    "date":"2018-11-28 00:00:00",
-                    "page":"045",
-                    "url":"/aya-book-1?page=2018-11-28-045"
-                },
-                {
-                    "date":"2018-12-02 00:00:00",
-                    "page":"046",
-                    "url":"/aya-book-1?page=2018-12-02-046"
-                },
-                {
-                    "date":"2018-12-06 00:00:00",
-                    "page":"047",
-                    "url":"/aya-book-1?page=2018-12-06-047"
-                },
-                {
-                    "date":"2018-12-10 00:00:00",
-                    "page":"048",
-                    "url":"/aya-book-1?page=2018-12-10-048"
+                    "date":"2018-12-07 00:00:00",
+                    "page":"027",
+                    "url":"/aya-book-1?page=2018-12-07-027"
                 },
                 {
                     "date":"2018-12-14 00:00:00",
-                    "page":"049",
-                    "url":"/aya-book-1?page=2018-12-14-049"
+                    "page":"028",
+                    "url":"/aya-book-1?page=2018-12-14-028"
                 },
                 {
-                    "date":"2018-12-18 00:00:00",
-                    "page":"050",
-                    "url":"/aya-book-1?page=2018-12-18-050"
+                    "date":"2018-12-21 00:00:00",
+                    "page":"029",
+                    "url":"/aya-book-1?page=2018-12-21-029"
                 },
                 {
-                    "date":"2018-12-22 00:00:00",
-                    "page":"051",
-                    "url":"/aya-book-1?page=2018-12-22-051"
+                    "date":"2018-12-28 00:00:00",
+                    "page":"030",
+                    "url":"/aya-book-1?page=2018-12-28-030"
                 },
                 {
-                    "date":"2018-12-26 00:00:00",
-                    "page":"052",
-                    "url":"/aya-book-1?page=2018-12-26-052"
-                },
-                {
-                    "date":"2018-12-30 00:00:00",
-                    "page":"053",
-                    "url":"/aya-book-1?page=2018-12-30-053"
-                },
-                {
-                    "date":"2019-01-03 00:00:00",
-                    "page":"054",
-                    "url":"/aya-book-1?page=2019-01-03-054"
-                },
-                {
-                    "date":"2019-01-07 00:00:00",
-                    "page":"055",
-                    "url":"/aya-book-1?page=2019-01-07-055"
+                    "date":"2019-01-04 00:00:00",
+                    "page":"031",
+                    "url":"/aya-book-1?page=2019-01-04-031"
                 },
                 {
                     "date":"2019-01-11 00:00:00",
-                    "page":"056",
-                    "url":"/aya-book-1?page=2019-01-11-056"
+                    "page":"032",
+                    "url":"/aya-book-1?page=2019-01-11-032"
                 },
                 {
-                    "date":"2019-01-15 00:00:00",
+                    "date":"2019-01-18 00:00:00",
+                    "page":"033",
+                    "url":"/aya-book-1?page=2019-01-18-033"
+                },
+                {
+                    "date":"2019-01-25 00:00:00",
+                    "page":"034",
+                    "url":"/aya-book-1?page=2019-01-25-034"
+                },
+                {
+                    "date":"2019-02-01 00:00:00",
+                    "page":"035",
+                    "url":"/aya-book-1?page=2019-02-01-035"
+                },
+                {
+                    "date":"2019-02-08 00:00:00",
+                    "page":"036",
+                    "url":"/aya-book-1?page=2019-02-08-036"
+                },
+                {
+                    "date":"2019-02-15 00:00:00",
+                    "page":"037",
+                    "url":"/aya-book-1?page=2019-02-15-037"
+                },
+                {
+                    "date":"2019-02-22 00:00:00",
+                    "page":"038",
+                    "url":"/aya-book-1?page=2019-02-22-038"
+                },
+                {
+                    "date":"2019-03-01 00:00:00",
+                    "page":"039",
+                    "url":"/aya-book-1?page=2019-03-01-039"
+                },
+                {
+                    "date":"2019-03-08 00:00:00",
+                    "page":"040",
+                    "url":"/aya-book-1?page=2019-03-08-040"
+                },
+                {
+                    "date":"2019-03-15 00:00:00",
+                    "page":"041",
+                    "url":"/aya-book-1?page=2019-03-15-041"
+                },
+                {
+                    "date":"2019-03-22 00:00:00",
+                    "page":"042",
+                    "url":"/aya-book-1?page=2019-03-22-042"
+                },
+                {
+                    "date":"2019-03-29 00:00:00",
+                    "page":"043",
+                    "url":"/aya-book-1?page=2019-03-29-043"
+                },
+                {
+                    "date":"2019-04-05 00:00:00",
+                    "page":"044",
+                    "url":"/aya-book-1?page=2019-04-05-044"
+                },
+                {
+                    "date":"2019-04-12 00:00:00",
+                    "page":"045",
+                    "url":"/aya-book-1?page=2019-04-12-045"
+                },
+                {
+                    "date":"2019-04-19 00:00:00",
+                    "page":"046",
+                    "url":"/aya-book-1?page=2019-04-19-046"
+                },
+                {
+                    "date":"2019-04-26 00:00:00",
+                    "page":"047",
+                    "url":"/aya-book-1?page=2019-04-26-047"
+                },
+                {
+                    "date":"2019-05-03 00:00:00",
+                    "page":"048",
+                    "url":"/aya-book-1?page=2019-05-03-048"
+                },
+                {
+                    "date":"2019-05-10 00:00:00",
+                    "page":"049",
+                    "url":"/aya-book-1?page=2019-05-10-049"
+                },
+                {
+                    "date":"2019-05-17 00:00:00",
+                    "page":"050",
+                    "url":"/aya-book-1?page=2019-05-17-050"
+                },
+                {
+                    "date":"2019-05-24 00:00:00",
+                    "page":"051",
+                    "url":"/aya-book-1?page=2019-05-24-051"
+                },
+                {
+                    "date":"2019-05-31 00:00:00",
+                    "page":"052",
+                    "url":"/aya-book-1?page=2019-05-31-052"
+                },
+                {
+                    "date":"2019-06-07 00:00:00",
+                    "page":"053",
+                    "url":"/aya-book-1?page=2019-06-07-053"
+                },
+                {
+                    "date":"2019-06-14 00:00:00",
+                    "page":"054",
+                    "url":"/aya-book-1?page=2019-06-14-054"
+                },
+                {
+                    "date":"2019-06-21 00:00:00",
+                    "page":"055",
+                    "url":"/aya-book-1?page=2019-06-21-055"
+                },
+                {
+                    "date":"2019-06-28 00:00:00",
+                    "page":"056",
+                    "url":"/aya-book-1?page=2019-06-28-056"
+                },
+                {
+                    "date":"2019-07-05 00:00:00",
                     "page":"057",
-                    "url":"/aya-book-1?page=2019-01-15-057"
+                    "url":"/aya-book-1?page=2019-07-05-057"
                 }
             ],
             "publish_start":"2018-06-01 00:00:00",
@@ -1733,292 +1752,292 @@
             "messages":[],
             "name":"Aya Begum - Book 2",
             "pages":57,
-            "publish_freq":4,
+            "publish_freq":7,
             "publish_info":[
                 {
-                    "date":"2018-10-05 00:00:00",
+                    "date":"2018-10-08 00:00:00",
                     "page":"001",
-                    "url":"/aya-book-2?page=2018-10-05-001"
+                    "url":"/aya-book-2?page=2018-10-08-001"
                 },
                 {
-                    "date":"2018-10-09 00:00:00",
+                    "date":"2018-10-15 00:00:00",
                     "page":"002",
-                    "url":"/aya-book-2?page=2018-10-09-002"
+                    "url":"/aya-book-2?page=2018-10-15-002"
                 },
                 {
-                    "date":"2018-10-13 00:00:00",
+                    "date":"2018-10-22 00:00:00",
                     "page":"003",
-                    "url":"/aya-book-2?page=2018-10-13-003"
-                },
-                {
-                    "date":"2018-10-17 00:00:00",
-                    "page":"004",
-                    "url":"/aya-book-2?page=2018-10-17-004"
-                },
-                {
-                    "date":"2018-10-21 00:00:00",
-                    "page":"005",
-                    "url":"/aya-book-2?page=2018-10-21-005"
-                },
-                {
-                    "date":"2018-10-25 00:00:00",
-                    "page":"006",
-                    "url":"/aya-book-2?page=2018-10-25-006"
+                    "url":"/aya-book-2?page=2018-10-22-003"
                 },
                 {
                     "date":"2018-10-29 00:00:00",
+                    "page":"004",
+                    "url":"/aya-book-2?page=2018-10-29-004"
+                },
+                {
+                    "date":"2018-11-05 00:00:00",
+                    "page":"005",
+                    "url":"/aya-book-2?page=2018-11-05-005"
+                },
+                {
+                    "date":"2018-11-12 00:00:00",
+                    "page":"006",
+                    "url":"/aya-book-2?page=2018-11-12-006"
+                },
+                {
+                    "date":"2018-11-19 00:00:00",
                     "page":"007",
-                    "url":"/aya-book-2?page=2018-10-29-007"
-                },
-                {
-                    "date":"2018-11-02 00:00:00",
-                    "page":"008",
-                    "url":"/aya-book-2?page=2018-11-02-008"
-                },
-                {
-                    "date":"2018-11-06 00:00:00",
-                    "page":"009",
-                    "url":"/aya-book-2?page=2018-11-06-009"
-                },
-                {
-                    "date":"2018-11-10 00:00:00",
-                    "page":"010",
-                    "url":"/aya-book-2?page=2018-11-10-010"
-                },
-                {
-                    "date":"2018-11-14 00:00:00",
-                    "page":"011",
-                    "url":"/aya-book-2?page=2018-11-14-011"
-                },
-                {
-                    "date":"2018-11-18 00:00:00",
-                    "page":"012",
-                    "url":"/aya-book-2?page=2018-11-18-012"
-                },
-                {
-                    "date":"2018-11-22 00:00:00",
-                    "page":"013",
-                    "url":"/aya-book-2?page=2018-11-22-013"
+                    "url":"/aya-book-2?page=2018-11-19-007"
                 },
                 {
                     "date":"2018-11-26 00:00:00",
-                    "page":"014",
-                    "url":"/aya-book-2?page=2018-11-26-014"
+                    "page":"008",
+                    "url":"/aya-book-2?page=2018-11-26-008"
                 },
                 {
-                    "date":"2018-11-30 00:00:00",
-                    "page":"015",
-                    "url":"/aya-book-2?page=2018-11-30-015"
+                    "date":"2018-12-03 00:00:00",
+                    "page":"009",
+                    "url":"/aya-book-2?page=2018-12-03-009"
                 },
                 {
-                    "date":"2018-12-04 00:00:00",
-                    "page":"016",
-                    "url":"/aya-book-2?page=2018-12-04-016"
+                    "date":"2018-12-10 00:00:00",
+                    "page":"010",
+                    "url":"/aya-book-2?page=2018-12-10-010"
                 },
                 {
-                    "date":"2018-12-08 00:00:00",
-                    "page":"017",
-                    "url":"/aya-book-2?page=2018-12-08-017"
-                },
-                {
-                    "date":"2018-12-12 00:00:00",
-                    "page":"018",
-                    "url":"/aya-book-2?page=2018-12-12-018"
-                },
-                {
-                    "date":"2018-12-16 00:00:00",
-                    "page":"019",
-                    "url":"/aya-book-2?page=2018-12-16-019"
-                },
-                {
-                    "date":"2018-12-20 00:00:00",
-                    "page":"020",
-                    "url":"/aya-book-2?page=2018-12-20-020"
+                    "date":"2018-12-17 00:00:00",
+                    "page":"011",
+                    "url":"/aya-book-2?page=2018-12-17-011"
                 },
                 {
                     "date":"2018-12-24 00:00:00",
-                    "page":"021",
-                    "url":"/aya-book-2?page=2018-12-24-021"
+                    "page":"012",
+                    "url":"/aya-book-2?page=2018-12-24-012"
                 },
                 {
-                    "date":"2018-12-28 00:00:00",
-                    "page":"022",
-                    "url":"/aya-book-2?page=2018-12-28-022"
+                    "date":"2018-12-31 00:00:00",
+                    "page":"013",
+                    "url":"/aya-book-2?page=2018-12-31-013"
                 },
                 {
-                    "date":"2019-01-01 00:00:00",
-                    "page":"023",
-                    "url":"/aya-book-2?page=2019-01-01-023"
+                    "date":"2019-01-07 00:00:00",
+                    "page":"014",
+                    "url":"/aya-book-2?page=2019-01-07-014"
                 },
                 {
-                    "date":"2019-01-05 00:00:00",
-                    "page":"024",
-                    "url":"/aya-book-2?page=2019-01-05-024"
-                },
-                {
-                    "date":"2019-01-09 00:00:00",
-                    "page":"025",
-                    "url":"/aya-book-2?page=2019-01-09-025"
-                },
-                {
-                    "date":"2019-01-13 00:00:00",
-                    "page":"026",
-                    "url":"/aya-book-2?page=2019-01-13-026"
-                },
-                {
-                    "date":"2019-01-17 00:00:00",
-                    "page":"027",
-                    "url":"/aya-book-2?page=2019-01-17-027"
+                    "date":"2019-01-14 00:00:00",
+                    "page":"015",
+                    "url":"/aya-book-2?page=2019-01-14-015"
                 },
                 {
                     "date":"2019-01-21 00:00:00",
-                    "page":"028",
-                    "url":"/aya-book-2?page=2019-01-21-028"
+                    "page":"016",
+                    "url":"/aya-book-2?page=2019-01-21-016"
                 },
                 {
-                    "date":"2019-01-25 00:00:00",
-                    "page":"029",
-                    "url":"/aya-book-2?page=2019-01-25-029"
+                    "date":"2019-01-28 00:00:00",
+                    "page":"017",
+                    "url":"/aya-book-2?page=2019-01-28-017"
                 },
                 {
-                    "date":"2019-01-29 00:00:00",
-                    "page":"030",
-                    "url":"/aya-book-2?page=2019-01-29-030"
+                    "date":"2019-02-04 00:00:00",
+                    "page":"018",
+                    "url":"/aya-book-2?page=2019-02-04-018"
                 },
                 {
-                    "date":"2019-02-02 00:00:00",
-                    "page":"031",
-                    "url":"/aya-book-2?page=2019-02-02-031"
-                },
-                {
-                    "date":"2019-02-06 00:00:00",
-                    "page":"032",
-                    "url":"/aya-book-2?page=2019-02-06-032"
-                },
-                {
-                    "date":"2019-02-10 00:00:00",
-                    "page":"033",
-                    "url":"/aya-book-2?page=2019-02-10-033"
-                },
-                {
-                    "date":"2019-02-14 00:00:00",
-                    "page":"034",
-                    "url":"/aya-book-2?page=2019-02-14-034"
+                    "date":"2019-02-11 00:00:00",
+                    "page":"019",
+                    "url":"/aya-book-2?page=2019-02-11-019"
                 },
                 {
                     "date":"2019-02-18 00:00:00",
-                    "page":"035",
-                    "url":"/aya-book-2?page=2019-02-18-035"
+                    "page":"020",
+                    "url":"/aya-book-2?page=2019-02-18-020"
                 },
                 {
-                    "date":"2019-02-22 00:00:00",
-                    "page":"036",
-                    "url":"/aya-book-2?page=2019-02-22-036"
+                    "date":"2019-02-25 00:00:00",
+                    "page":"021",
+                    "url":"/aya-book-2?page=2019-02-25-021"
                 },
                 {
-                    "date":"2019-02-26 00:00:00",
-                    "page":"037",
-                    "url":"/aya-book-2?page=2019-02-26-037"
+                    "date":"2019-03-04 00:00:00",
+                    "page":"022",
+                    "url":"/aya-book-2?page=2019-03-04-022"
                 },
                 {
-                    "date":"2019-03-02 00:00:00",
-                    "page":"038",
-                    "url":"/aya-book-2?page=2019-03-02-038"
-                },
-                {
-                    "date":"2019-03-06 00:00:00",
-                    "page":"039",
-                    "url":"/aya-book-2?page=2019-03-06-039"
-                },
-                {
-                    "date":"2019-03-10 00:00:00",
-                    "page":"040",
-                    "url":"/aya-book-2?page=2019-03-10-040"
-                },
-                {
-                    "date":"2019-03-14 00:00:00",
-                    "page":"041",
-                    "url":"/aya-book-2?page=2019-03-14-041"
+                    "date":"2019-03-11 00:00:00",
+                    "page":"023",
+                    "url":"/aya-book-2?page=2019-03-11-023"
                 },
                 {
                     "date":"2019-03-18 00:00:00",
-                    "page":"042",
-                    "url":"/aya-book-2?page=2019-03-18-042"
+                    "page":"024",
+                    "url":"/aya-book-2?page=2019-03-18-024"
                 },
                 {
-                    "date":"2019-03-22 00:00:00",
-                    "page":"043",
-                    "url":"/aya-book-2?page=2019-03-22-043"
+                    "date":"2019-03-25 00:00:00",
+                    "page":"025",
+                    "url":"/aya-book-2?page=2019-03-25-025"
                 },
                 {
-                    "date":"2019-03-26 00:00:00",
-                    "page":"044",
-                    "url":"/aya-book-2?page=2019-03-26-044"
+                    "date":"2019-04-01 00:00:00",
+                    "page":"026",
+                    "url":"/aya-book-2?page=2019-04-01-026"
                 },
                 {
-                    "date":"2019-03-30 00:00:00",
-                    "page":"045",
-                    "url":"/aya-book-2?page=2019-03-30-045"
-                },
-                {
-                    "date":"2019-04-03 00:00:00",
-                    "page":"046",
-                    "url":"/aya-book-2?page=2019-04-03-046"
-                },
-                {
-                    "date":"2019-04-07 00:00:00",
-                    "page":"047",
-                    "url":"/aya-book-2?page=2019-04-07-047"
-                },
-                {
-                    "date":"2019-04-11 00:00:00",
-                    "page":"048",
-                    "url":"/aya-book-2?page=2019-04-11-048"
+                    "date":"2019-04-08 00:00:00",
+                    "page":"027",
+                    "url":"/aya-book-2?page=2019-04-08-027"
                 },
                 {
                     "date":"2019-04-15 00:00:00",
-                    "page":"049",
-                    "url":"/aya-book-2?page=2019-04-15-049"
+                    "page":"028",
+                    "url":"/aya-book-2?page=2019-04-15-028"
                 },
                 {
-                    "date":"2019-04-19 00:00:00",
-                    "page":"050",
-                    "url":"/aya-book-2?page=2019-04-19-050"
+                    "date":"2019-04-22 00:00:00",
+                    "page":"029",
+                    "url":"/aya-book-2?page=2019-04-22-029"
                 },
                 {
-                    "date":"2019-04-23 00:00:00",
-                    "page":"051",
-                    "url":"/aya-book-2?page=2019-04-23-051"
+                    "date":"2019-04-29 00:00:00",
+                    "page":"030",
+                    "url":"/aya-book-2?page=2019-04-29-030"
                 },
                 {
-                    "date":"2019-04-27 00:00:00",
-                    "page":"052",
-                    "url":"/aya-book-2?page=2019-04-27-052"
-                },
-                {
-                    "date":"2019-05-01 00:00:00",
-                    "page":"053",
-                    "url":"/aya-book-2?page=2019-05-01-053"
-                },
-                {
-                    "date":"2019-05-05 00:00:00",
-                    "page":"054",
-                    "url":"/aya-book-2?page=2019-05-05-054"
-                },
-                {
-                    "date":"2019-05-09 00:00:00",
-                    "page":"055",
-                    "url":"/aya-book-2?page=2019-05-09-055"
+                    "date":"2019-05-06 00:00:00",
+                    "page":"031",
+                    "url":"/aya-book-2?page=2019-05-06-031"
                 },
                 {
                     "date":"2019-05-13 00:00:00",
-                    "page":"056",
-                    "url":"/aya-book-2?page=2019-05-13-056"
+                    "page":"032",
+                    "url":"/aya-book-2?page=2019-05-13-032"
                 },
                 {
-                    "date":"2019-05-17 00:00:00",
+                    "date":"2019-05-20 00:00:00",
+                    "page":"033",
+                    "url":"/aya-book-2?page=2019-05-20-033"
+                },
+                {
+                    "date":"2019-05-27 00:00:00",
+                    "page":"034",
+                    "url":"/aya-book-2?page=2019-05-27-034"
+                },
+                {
+                    "date":"2019-06-03 00:00:00",
+                    "page":"035",
+                    "url":"/aya-book-2?page=2019-06-03-035"
+                },
+                {
+                    "date":"2019-06-10 00:00:00",
+                    "page":"036",
+                    "url":"/aya-book-2?page=2019-06-10-036"
+                },
+                {
+                    "date":"2019-06-17 00:00:00",
+                    "page":"037",
+                    "url":"/aya-book-2?page=2019-06-17-037"
+                },
+                {
+                    "date":"2019-06-24 00:00:00",
+                    "page":"038",
+                    "url":"/aya-book-2?page=2019-06-24-038"
+                },
+                {
+                    "date":"2019-07-01 00:00:00",
+                    "page":"039",
+                    "url":"/aya-book-2?page=2019-07-01-039"
+                },
+                {
+                    "date":"2019-07-08 00:00:00",
+                    "page":"040",
+                    "url":"/aya-book-2?page=2019-07-08-040"
+                },
+                {
+                    "date":"2019-07-15 00:00:00",
+                    "page":"041",
+                    "url":"/aya-book-2?page=2019-07-15-041"
+                },
+                {
+                    "date":"2019-07-22 00:00:00",
+                    "page":"042",
+                    "url":"/aya-book-2?page=2019-07-22-042"
+                },
+                {
+                    "date":"2019-07-29 00:00:00",
+                    "page":"043",
+                    "url":"/aya-book-2?page=2019-07-29-043"
+                },
+                {
+                    "date":"2019-08-05 00:00:00",
+                    "page":"044",
+                    "url":"/aya-book-2?page=2019-08-05-044"
+                },
+                {
+                    "date":"2019-08-12 00:00:00",
+                    "page":"045",
+                    "url":"/aya-book-2?page=2019-08-12-045"
+                },
+                {
+                    "date":"2019-08-19 00:00:00",
+                    "page":"046",
+                    "url":"/aya-book-2?page=2019-08-19-046"
+                },
+                {
+                    "date":"2019-08-26 00:00:00",
+                    "page":"047",
+                    "url":"/aya-book-2?page=2019-08-26-047"
+                },
+                {
+                    "date":"2019-09-02 00:00:00",
+                    "page":"048",
+                    "url":"/aya-book-2?page=2019-09-02-048"
+                },
+                {
+                    "date":"2019-09-09 00:00:00",
+                    "page":"049",
+                    "url":"/aya-book-2?page=2019-09-09-049"
+                },
+                {
+                    "date":"2019-09-16 00:00:00",
+                    "page":"050",
+                    "url":"/aya-book-2?page=2019-09-16-050"
+                },
+                {
+                    "date":"2019-09-23 00:00:00",
+                    "page":"051",
+                    "url":"/aya-book-2?page=2019-09-23-051"
+                },
+                {
+                    "date":"2019-09-30 00:00:00",
+                    "page":"052",
+                    "url":"/aya-book-2?page=2019-09-30-052"
+                },
+                {
+                    "date":"2019-10-07 00:00:00",
+                    "page":"053",
+                    "url":"/aya-book-2?page=2019-10-07-053"
+                },
+                {
+                    "date":"2019-10-14 00:00:00",
+                    "page":"054",
+                    "url":"/aya-book-2?page=2019-10-14-054"
+                },
+                {
+                    "date":"2019-10-21 00:00:00",
+                    "page":"055",
+                    "url":"/aya-book-2?page=2019-10-21-055"
+                },
+                {
+                    "date":"2019-10-28 00:00:00",
+                    "page":"056",
+                    "url":"/aya-book-2?page=2019-10-28-056"
+                },
+                {
+                    "date":"2019-11-04 00:00:00",
                     "page":"057",
-                    "url":"/aya-book-2?page=2019-05-17-057"
+                    "url":"/aya-book-2?page=2019-11-04-057"
                 }
             ],
             "publish_start":"2018-10-01 00:00:00",
