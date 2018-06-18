@@ -171,7 +171,7 @@
             </div>
         </div>
 
-        <div class="row page-navigation" style="display:none" >
+        <div class="row page-navigation"  >
             <div class="col-xs-5">
 
                 <ul class="list-unstyled list-inline first-last-page">
@@ -190,56 +190,9 @@
         </div>
         <div id="page">
 
-
-            <h2>COMING SOON!</h2>
-            <p>I'm hard at work making this available to read as a web-comic, I promise!</p>
-            <p>In the meantime, you can <a href="/#">browse for something else to read</a> or follow me to get hear about new activity on my site.</p>
-            <div class="share-links-follow blue">
-    <ul class="list-unstyled list-inline">
-       <li>
-            <a href="http://twitter.com/mildfrenzy">
-                <span class="fa-stack fa-lg">
-                   <i class="fa fa-twitter-square fa-stack-1x"></i>
-                </span>
-            </a>
-        </li>
-        <li>
-            <a href="http://facebook.com/mildfrenzy">
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-facebook-square fa-stack-1x"></i>
-                </span>
-            </a>
-        </li>
-        <!--
-        <li>
-            <a href="">
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-linkedin-square fa-stack-1x"></i>
-                </span>
-            </a>
-        </li>
-      -->
-        <li>
-            <a href="http://mildfrenzy.tumblr.com">
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-tumblr-square fa-stack-1x"></i>
-                </span>
-            </a>
-        </li>
-        <!--
-        <li>
-            <a href="">
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-google-plus-square fa-stack-1x"></i>
-                </span>
-            </a>
-        </li>
-      -->
-    </ul>
-</div>
         </div>
 
-        <div class="row page-navigation" style="display:none">
+        <div class="row page-navigation" >
             <div class="col-xs-5">
 
                 <ul class="list-unstyled list-inline first-last-page">
@@ -656,6 +609,261 @@ if(params.r !== undefined){
 }
 
 
+//Helper functions
+var getIndexByKey = function(key, value, data) {
+    var i, len = data.length;
+    for (i = 0; i < len; i++) {
+        if (data[i] && data[i].hasOwnProperty(key) && data[i][key] === value) {
+            return i;
+        }
+    }
+    return -1;
+}
+var getValueByKey = function (key, value, data) {
+    var i, len = data.length;
+    for (i = 0; i < len; i++) {
+        if (data[i] && data[i].hasOwnProperty(key) && data[i][key] === value) {
+            return data[i];
+        }
+    }
+
+    return -1;
+}
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+var getDateDiffInDays = function(a,b){
+    var _MS_PER_DAY = 1000 * 60 * 60 * 24;
+    var utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+    var utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+    return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+}
+//
+//Pages Object
+function Pages(project){
+    //This holds the specific project's publish information
+    var $publish_info = project['publish_info'];
+    //This checks the URL and gets the relevant page entry from the JSON object
+    this.current = function(){
+        var page_url_param = getUrlParameter("page");
+        if(page_url_param !== undefined){
+            var p = page_url_param.split("-");
+            curr_index = getIndexByKey("page", p[3].toString(), $publish_info);
+            return $publish_info[curr_index];
+        }else{
+            return this.latest();
+        }
+
+    };
+    //Takes day and i value
+    this.isPagePublished = function(d,i){
+        var page_url_param_param = getUrlParameter("page");
+        console.log(d);
+        if (typeof d !== 'undefined') {
+            //Get the date
+            var p = $publish_info[i]['date'].split(/-|\s/);
+            console.log(i);
+        }else{
+            if(page_url_param !== undefined){
+                console.log("SOMETHING!"+page_url_param);
+                var page_url_param = getUrlParameter("page");
+                var p = page_url_param.split("-");
+            }else{
+                return true;
+            }
+
+        }
+        var d = new Date(p[0],p[1]-1, p[2]);
+        var today = new Date();
+        var diff = getDateDiffInDays(today, d);
+        if(diff <= 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    this.is_page_url_param_valid = function(){
+        var page_url_param = getUrlParameter("page");
+        if(page_url_param !== undefined){
+            //Check if the page URL is valid. i.e. that the page with the date exists
+            var k = getIndexByKey("url", "/"+project['slug']+"?page="+page_url_param, $publish_info ) ;
+            //console.log(k);
+            if(k===-1){
+                return false;
+            }else{
+                return true;
+            }
+        }else{
+
+            //If latest page is in the past, then
+            if (this.current() ){
+                return true;
+            }else{
+                console.log("NOT VALIDE!");
+
+                return true;
+            }
+
+        }
+    };
+    this.latest = function(){
+        var today = new Date();
+
+        for (i = 0; i < $publish_info.length; i++){
+            console.log(i);
+            var p = $publish_info[i]['date'].split(/-|\s/);
+            var d = new Date(p[0],p[1]-1, p[2]);
+            //If item is the last in the array (i.e. all are published)
+            if((i+1) === $publish_info.length){
+              return $publish_info[i];
+            }
+            if(this.isPagePublished(d,i)){
+                console.log("Page is published");
+            }else{
+                console.log("Page NOT published");
+                if(i === 0){
+                    return false;
+                }else{
+                    return $publish_info[i-1];
+                }
+            }
+        }
+    };
+    this.first = function(){
+        return $publish_info[0];
+    }
+    this.previous = function(){
+        var current_index = $publish_info.indexOf(this.current());
+        if(current_index > 0){
+            return $publish_info[current_index-1];
+        }else{
+            return $publish_info[current_index];
+        }
+    };
+    this.next = function(){
+        var current_index = $publish_info.indexOf(this.current());
+        return $publish_info[current_index+1];
+    };
+    this.next_publish = function(){
+        var d1 = new Date();
+        var next_index = $publish_info.indexOf(this.latest())+1;
+        var p = $publish_info[next_index]['date'].split(/-|\s/);
+        var d2 = new Date(p[0],p[1]-1, p[2]);
+        var diff = getDateDiffInDays(d1,d2);
+        return diff;
+    };
+    this.message = function(){
+        $("#daysToRelease").text(pages.next_publish());
+        $("#lastPage").modal('show');
+    };
+    this.go_to_page = function(page){
+        window.location = page['url'];
+    };
+
+    //Initialise:
+    if(this.isPagePublished()){
+      var latest_index = getIndexByKey('page',this.latest()['page'],project['publish_info']);
+      var current_index = getIndexByKey('page',this.current()['page'],project['publish_info']);
+        //get the array position, based on this date
+        //Check if user is on / and also all pages have been published
+        var image_name = this.current()['page'];
+        /*
+       if( getUrlParameter("page") === undefined && $publish_info.length === current_index+1 ){
+         //Set current page to be latest
+         //this.current() = this.first();
+         alert(image_name);
+        image_name = this.first()['page'];
+        alert(image_name);
+       }
+       */
+       console.log("Latest: "+this.latest());
+        //If there are no pages to display (comic not yet published)
+        if( this.is_page_url_param_valid() && this.latest() === false ){
+            alert("Coming soon");
+            //$('#page').html('COMING SOON');
+            $('.page-navigation, .page-container .share-links-post-page').html('');
+        }
+        else if( this.is_page_url_param_valid() ){
+            $('#page').html('');
+            var img = $('<img />').attr({
+                'src': '/img/'+project['slug']+'/'+this.current()['page']+'.jpg',
+                'alt': project['name']+' - Page '+this.current()['page'],
+                'title': project['name']+' - Page '+this.current()['page']
+            }).appendTo('#page');
+            //Background image:
+            $('<div />').attr({
+                'style': 'background-image:url("/img/'+project['slug']+'/'+this.current()['page']+'.jpg")',
+                'class': 'bg-page',
+                'alt': project['name']+' - Page '+this.current()['page'],
+                'title': project['name']+' - Page '+this.current()['page']
+            }).appendTo('body');
+            //Selectbox
+
+            for(var i=0; i<latest_index+1; i++){
+                var v = i+1;
+                if(i === current_index){
+                    $('.page-select').append("<option selected='true' value='"+$publish_info[i]['url']+"'>Page "+v+"</option>")
+                }else{
+                    $('.page-select').append("<option value='"+$publish_info[i]['url']+"'>Page "+v+"</option>")
+                }
+            }
+            $('.page-select').on('change', function () {
+              var url = $(this).val(); // get selected value
+              if (url) { // require a URL
+                  window.location = url; // redirect
+              }
+              return false;
+            });
+        }else{
+            window.location = "/"+project['slug'];
+        }
+    }else{
+        this.message();
+        console.log("Not yet published");
+
+    }
+}
+//
+//
+
+var pages;
+$.ajax({
+  url : "/theme/js/publish_list.json",
+  type : "GET",
+  success:function(data){
+     project = getValueByKey("slug", "aya-book-1", data['projects']);
+     pages = new Pages(project);
+     //console.log("Next page is coming in "+pages.next_publish() );
+  }
+});
+$(".page_prev").click(function(){
+    pages.go_to_page(pages.previous());
+});
+$(".page_first").click(function(){
+    pages.go_to_page(pages.first());
+});
+$(".page_latest").click(function(){
+    pages.go_to_page(pages.latest());
+});
+
+$(".page_next").click(function(){
+    if( pages.current() === pages.latest()  ){
+        pages.message();
+    }else{
+        pages.go_to_page(pages.next());
+    }
+});
 </script>
     <!-- <script type="text/javascript">
     var disqus_shortname = 'mildfrenzy';
